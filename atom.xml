@@ -39,10 +39,10 @@
   
   <entry>
     <title>这是文章标题</title>
-    <link href="http://yoursite.com/2016/02/28/new/"/>
-    <id>http://yoursite.com/2016/02/28/new/</id>
-    <published>2016-02-28T09:58:27.000Z</published>
-    <updated>2018-07-24T16:25:37.964Z</updated>
+    <link href="http://yoursite.com/2018/07/25/new/"/>
+    <id>http://yoursite.com/2018/07/25/new/</id>
+    <published>2018-07-24T16:00:00.000Z</published>
+    <updated>2018-07-24T16:36:38.560Z</updated>
     
     <content type="html"><![CDATA[<h2 id="11111"><a href="#11111" class="headerlink" title="11111"></a>11111</h2><h2 id="22222"><a href="#22222" class="headerlink" title="22222"></a>22222</h2><p>这是内容</p>]]></content>
     
