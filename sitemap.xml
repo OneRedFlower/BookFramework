@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://book.wenting.tech/tags/index.html</loc>
+    
+    <lastmod>2018-07-25T08:34:06.825Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://book.wenting.tech/about/index.html</loc>
+    
+    <lastmod>2018-07-25T08:33:59.397Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://book.wenting.tech/404/index.html</loc>
+    
+    <lastmod>2018-07-25T08:33:47.168Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://book.wenting.tech/2018/07/25/new/</loc>
     
     <lastmod>2018-07-24T16:36:38.560Z</lastmod>
@@ -11,7 +32,7 @@
   <url>
     <loc>http://book.wenting.tech/2018/07/25/hello-world/</loc>
     
-    <lastmod>2018-07-24T16:25:24.381Z</lastmod>
+    <lastmod>2018-07-24T16:25:24.382Z</lastmod>
     
   </url>
   
