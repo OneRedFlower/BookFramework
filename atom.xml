@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hexo</title>
-  
-  
+  <icon>https://www.gravatar.com/avatar/0efe432269ad140c8a912d9bef351db0</icon>
+  <subtitle>这里只有代码相关，要了解更多 &gt;&gt;&gt; wenting.tech</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://book.wenting.tech/"/>
   <updated>2018-07-24T16:25:24.381Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://book.wenting.tech/</id>
   
   <author>
-    <name>Wendy</name>
-    
+    <name>XiFeng.Ping</name>
+    <email>保密</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hello Worlds</title>
-    <link href="http://yoursite.com/2018/07/25/hello-world/"/>
-    <id>http://yoursite.com/2018/07/25/hello-world/</id>
+    <link href="http://book.wenting.tech/2018/07/25/hello-world/"/>
+    <id>http://book.wenting.tech/2018/07/25/hello-world/</id>
     <published>2018-07-24T16:25:24.378Z</published>
     <updated>2018-07-24T16:25:24.381Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>这是文章标题</title>
-    <link href="http://yoursite.com/2018/07/25/new/"/>
-    <id>http://yoursite.com/2018/07/25/new/</id>
+    <link href="http://book.wenting.tech/2018/07/25/new/"/>
+    <id>http://book.wenting.tech/2018/07/25/new/</id>
     <published>2018-07-24T16:00:00.000Z</published>
     <updated>2018-07-24T16:36:38.560Z</updated>
     
@@ -55,20 +55,20 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://book.wenting.tech/categories/Hexo/"/>
     
-      <category term="IntelliJ IDEA" scheme="http://yoursite.com/categories/Hexo/IntelliJ-IDEA/"/>
+      <category term="IntelliJ IDEA" scheme="http://book.wenting.tech/categories/Hexo/IntelliJ-IDEA/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://book.wenting.tech/tags/Hexo/"/>
     
-      <category term="IntelliJ IDEA" scheme="http://yoursite.com/tags/IntelliJ-IDEA/"/>
+      <category term="IntelliJ IDEA" scheme="http://book.wenting.tech/tags/IntelliJ-IDEA/"/>
     
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+      <category term="Git" scheme="http://book.wenting.tech/tags/Git/"/>
     
-      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+      <category term="Github" scheme="http://book.wenting.tech/tags/Github/"/>
     
-      <category term="Node.js" scheme="http://yoursite.com/tags/Node-js/"/>
+      <category term="Node.js" scheme="http://book.wenting.tech/tags/Node-js/"/>
     
   </entry>
   
