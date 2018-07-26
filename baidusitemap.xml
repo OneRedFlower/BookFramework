@@ -7,37 +7,6 @@
     
     
   <url>
-    <loc>http://book.wenting.tech/2018/07/25/new/</loc>
-    <lastmod>2018-07-24T16:36:38.560Z</lastmod>
-    <data>
-        <display>
-        <title>这是文章标题</title>
-        <pubTime>2018-07-24T16:00:00.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Git</tag>
-         
-        <tag>Github</tag>
-         
-        <tag>Node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://book.wenting.tech/categories/Hexo/"/>
-          
-             
-              <breadCrumb title="IntelliJ IDEA" url="http://book.wenting.tech/categories/Hexo/IntelliJ-IDEA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://book.wenting.tech/2018/07/25/hello-world/</loc>
     <lastmod>2018-07-24T16:25:24.382Z</lastmod>
     <data>
