@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
-  <icon>https://www.gravatar.com/avatar/d8782fd1b868be35ff7dd382a2326f55</icon>
-  <subtitle>这里只有代码相关，要了解更多 &gt;&gt;&gt; wenting.tech</subtitle>
+  <title>BookClub</title>
+  <icon>https://www.gravatar.com/avatar/8005a425219f6eaeaf8a54a00824f75c</icon>
+  <subtitle>记录生活，珍惜点滴</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://book.wenting.tech/"/>
@@ -10,8 +10,8 @@
   <id>http://book.wenting.tech/</id>
   
   <author>
-    <name>XiFeng.Ping</name>
-    <email>保密</email>
+    <name>蛋猪团Family</name>
+    <email>962246502@qq.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
