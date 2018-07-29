@@ -66,7 +66,7 @@
 
 
 
-  <meta name="keywords" content="Hexo,Github,HelloWorld,">
+  <meta name="keywords" content="Google Cloud Platform,Shadowsocks,科学上网,">
 
 
 
@@ -79,18 +79,27 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="keywords" content="Hexo,Github,HelloWorld">
+<meta name="description" content="总体步骤第一步：注册 GCP（目前限免一年，消费上限300刀）第二步：使用 GCP 中的 VPS（以 Debian 8 为例）搭建 Shadowsocks 服务端第三部：使用 Shadowsocks 客户端访问搭建好的服务端，翻越 GFW，实现科学上网 思维导图 步骤详解第一步：注册 GCP访问 Google Cloud Platform 免费活动网站 https://cloud.google.c">
+<meta name="keywords" content="Google Cloud Platform,Shadowsocks,科学上网">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello Worlds">
-<meta property="og:url" content="http://book.wenting.tech/2018/07/29/hello-world/index.html">
+<meta property="og:title" content="使用 Google Cloud Platform 搭梯，实现科学上网">
+<meta property="og:url" content="http://book.wenting.tech/2018/07/29/GCP-SSH/index.html">
 <meta property="og:site_name" content="BookClub">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="总体步骤第一步：注册 GCP（目前限免一年，消费上限300刀）第二步：使用 GCP 中的 VPS（以 Debian 8 为例）搭建 Shadowsocks 服务端第三部：使用 Shadowsocks 客户端访问搭建好的服务端，翻越 GFW，实现科学上网 思维导图 步骤详解第一步：注册 GCP访问 Google Cloud Platform 免费活动网站 https://cloud.google.c">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-07-29T15:59:30.274Z">
+<meta property="og:image" content="http://book.wenting.tech/images/GCP_SSH/思维导图.png">
+<meta property="og:image" content="http://book.wenting.tech/images/GCP_SSH/创建VM.png">
+<meta property="og:image" content="http://book.wenting.tech/images/GCP_SSH/IP设置.png">
+<meta property="og:image" content="http://book.wenting.tech/images/GCP_SSH/防火墙设置_入站.png">
+<meta property="og:image" content="http://book.wenting.tech/images/GCP_SSH/防火墙设置_出站.png">
+<meta property="og:image" content="http://book.wenting.tech/images/GCP_SSH/终端.png">
+<meta property="og:image" content="http://book.wenting.tech/images/GCP_SSH/SS客户端.png">
+<meta property="og:image" content="http://book.wenting.tech/images/GCP_SSH/科学上网.png">
+<meta property="og:updated_time" content="2018-07-29T16:47:43.787Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello Worlds">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="使用 Google Cloud Platform 搭梯，实现科学上网">
+<meta name="twitter:description" content="总体步骤第一步：注册 GCP（目前限免一年，消费上限300刀）第二步：使用 GCP 中的 VPS（以 Debian 8 为例）搭建 Shadowsocks 服务端第三部：使用 Shadowsocks 客户端访问搭建好的服务端，翻越 GFW，实现科学上网 思维导图 步骤详解第一步：注册 GCP访问 Google Cloud Platform 免费活动网站 https://cloud.google.c">
+<meta name="twitter:image" content="http://book.wenting.tech/images/GCP_SSH/思维导图.png">
 
 
 
@@ -120,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="http://book.wenting.tech/2018/07/29/hello-world/">
+  <link rel="canonical" href="http://book.wenting.tech/2018/07/29/GCP-SSH/">
 
 
 
 
 
-  <title>Hello Worlds | BookClub</title>
+  <title>使用 Google Cloud Platform 搭梯，实现科学上网 | BookClub</title>
   
 
 
@@ -263,7 +272,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://book.wenting.tech/2018/07/29/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://book.wenting.tech/2018/07/29/GCP-SSH/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="蛋猪团Family">
@@ -280,7 +289,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello Worlds</h1>
+          <h1 class="post-title" itemprop="name headline">使用 Google Cloud Platform 搭梯，实现科学上网</h1>
         
 
         <div class="post-meta">
@@ -292,7 +301,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-29T22:00:00+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-29T23:34:45+08:00">
                 2018-07-29
               </time>
             
@@ -315,8 +324,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
+                  <a href="/categories/Google-Cloud-Platform/" itemprop="url" rel="index">
+                    <span itemprop="name">Google Cloud Platform</span>
                   </a>
                 </span>
 
@@ -332,7 +341,7 @@
 
           
           
-             <span id="/2018/07/29/hello-world/" class="leancloud_visitors" data-flag-title="Hello Worlds">
+             <span id="/2018/07/29/GCP-SSH/" class="leancloud_visitors" data-flag-title="使用 Google Cloud Platform 搭梯，实现科学上网">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -363,15 +372,35 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h2 id="总体步骤"><a href="#总体步骤" class="headerlink" title="总体步骤"></a>总体步骤</h2><p><strong><em>第一步：注册 GCP（目前限免一年，消费上限300刀）</em></strong><br><strong><em>第二步：使用 GCP 中的 VPS（以 Debian 8 为例）搭建 Shadowsocks 服务端</em></strong><br><strong><em>第三部：使用 Shadowsocks 客户端访问搭建好的服务端，翻越 GFW，实现科学上网</em></strong></p>
+<h3 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h3><p><img src="/images/GCP_SSH/思维导图.png" alt=""></p>
+<h3 id="步骤详解"><a href="#步骤详解" class="headerlink" title="步骤详解"></a>步骤详解</h3><h4 id="第一步：注册-GCP"><a href="#第一步：注册-GCP" class="headerlink" title="第一步：注册 GCP"></a><strong><em>第一步：注册 GCP</em></strong></h4><p><strong>访问 Google Cloud Platform 免费活动网站 <a href="https://cloud.google.com/free/" target="_blank" rel="noopener">https://cloud.google.com/free/</a> 进行账户注册（需要翻墙访问。美国地址可以随便填个什么，主要是需要有双币信用卡或者VISA卡）。</strong></p>
+<h4 id="第二步：搭建服务端"><a href="#第二步：搭建服务端" class="headerlink" title="第二步：搭建服务端"></a><strong><em>第二步：搭建服务端</em></strong></h4><h5 id="1、VM-实例中搜索-Debian-8-（Jessie），新建一个实例，选择最低配即可。"><a href="#1、VM-实例中搜索-Debian-8-（Jessie），新建一个实例，选择最低配即可。" class="headerlink" title="1、VM 实例中搜索 Debian 8 （Jessie），新建一个实例，选择最低配即可。"></a><strong>1、VM 实例中搜索 Debian 8 （Jessie），新建一个实例，选择最低配即可。</strong></h5><p><img src="/images/GCP_SSH/创建VM.png" alt=""></p>
+<h5 id="2、在外部-IP-地址中设置静态-IP"><a href="#2、在外部-IP-地址中设置静态-IP" class="headerlink" title="2、在外部 IP 地址中设置静态 IP"></a><strong>2、在外部 IP 地址中设置静态 IP</strong></h5><p><img src="/images/GCP_SSH/IP设置.png" alt=""></p>
+<h5 id="3、在防火墙规则中分别创建一个入站和出站的规则"><a href="#3、在防火墙规则中分别创建一个入站和出站的规则" class="headerlink" title="3、在防火墙规则中分别创建一个入站和出站的规则"></a><strong>3、在防火墙规则中分别创建一个入站和出站的规则</strong></h5><p>入站</p>
+<p><img src="/images/GCP_SSH/防火墙设置_入站.png" alt=""></p>
+<p>出站</p>
+<p><img src="/images/GCP_SSH/防火墙设置_出站.png" alt=""></p>
+<h5 id="4、GCP自带网页终端登录服务器，或者使用SSH工具也可"><a href="#4、GCP自带网页终端登录服务器，或者使用SSH工具也可" class="headerlink" title="4、GCP自带网页终端登录服务器，或者使用SSH工具也可"></a><strong>4、GCP自带网页终端登录服务器，或者使用SSH工具也可</strong></h5><p><img src="/images/GCP_SSH/终端.png" alt=""></p>
+<h6 id="4-1、切换到-root-用户"><a href="#4-1、切换到-root-用户" class="headerlink" title="4.1、切换到 root 用户"></a><strong>4.1、切换到 root 用户</strong></h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo su</span><br></pre></td></tr></table></figure>
+<h6 id="4-2、安装-BBR-内核（拥塞控制），按顺序执行以下三个命令"><a href="#4-2、安装-BBR-内核（拥塞控制），按顺序执行以下三个命令" class="headerlink" title="4.2、安装 BBR 内核（拥塞控制），按顺序执行以下三个命令"></a><strong>4.2、安装 BBR 内核（拥塞控制），按顺序执行以下三个命令</strong></h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh</span><br><span class="line">chmod +x bbr.sh</span><br><span class="line">./bbr.sh</span><br></pre></td></tr></table></figure>
+<p>安装完会提示需要重启，输入y回车，重启之后需要重新连接 VPS</p>
+<p>验证<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uname -r</span><br></pre></td></tr></table></figure></p>
+<p>查看内核版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl net.ipv4.tcp_available_congestion_control</span><br></pre></td></tr></table></figure></p>
+<p>返回值举例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">net.ipv4.tcp_available_congestion_control = bbr cubic reno</span><br></pre></td></tr></table></figure></p>
+<p>执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl net.ipv4.tcp_congestion_control</span><br></pre></td></tr></table></figure></p>
+<p>返回举例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">net.ipv4.tcp_congestion_control = bbr</span><br></pre></td></tr></table></figure></p>
+<p>执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl net.core.default_qdisc</span><br></pre></td></tr></table></figure></p>
+<p>返回举例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">net.core.default_qdisc = fq</span><br></pre></td></tr></table></figure></p>
+<p>执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsmod | grep bbr</span><br></pre></td></tr></table></figure></p>
+<p>返回值有 tcp_bbr 模块即说明 BBR 已启动</p>
+<h6 id="4-3、安装-Shadowsocks-服务端，按顺序执行以下命令"><a href="#4-3、安装-Shadowsocks-服务端，按顺序执行以下命令" class="headerlink" title="4.3、安装 Shadowsocks 服务端，按顺序执行以下命令"></a><strong>4.3、安装 Shadowsocks 服务端，按顺序执行以下命令</strong></h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh</span><br><span class="line">chmod +x shadowsocks-all.sh</span><br><span class="line">./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log</span><br></pre></td></tr></table></figure>
+<p>注意：安装过程中会让选择 Shadowsocks 版本，我选择的是 Shadowsocks Go 供参考；另外安装过程中也需要设置端口和密码，不记录也没关系，最后安装成功之后会展示类似如下信息：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Congratulations, Shadowsocks-Go server install completed!</span><br><span class="line">Your Server IP : 你的服务器IP地址 </span><br><span class="line">Your Server Port : 你输入的端口号 </span><br><span class="line">Your Password : 你输入的密码</span><br><span class="line">Your Encryption Method: aes-256-cfb（你选择的加密方式）</span><br></pre></td></tr></table></figure>
+<p>提示这个的话，就完成了 Shadowsocks 服务端在 VPS 中的搭建。</p>
+<h4 id="第三步：使用-Shadowsocks-客户端访问搭建好的服务器"><a href="#第三步：使用-Shadowsocks-客户端访问搭建好的服务器" class="headerlink" title="第三步：使用 Shadowsocks 客户端访问搭建好的服务器"></a><strong><em>第三步：使用 Shadowsocks 客户端访问搭建好的服务器</em></strong></h4><h5 id="1、Windows、macOS、Android客户端可在我的百度网盘中下载（还是直接找我要吧，文件分享链接动不动就给封了，现要现给）"><a href="#1、Windows、macOS、Android客户端可在我的百度网盘中下载（还是直接找我要吧，文件分享链接动不动就给封了，现要现给）" class="headerlink" title="1、Windows、macOS、Android客户端可在我的百度网盘中下载（还是直接找我要吧，文件分享链接动不动就给封了，现要现给）"></a><strong>1、Windows、macOS、Android客户端可在我的百度网盘中下载（还是直接找我要吧，文件分享链接动不动就给封了，现要现给）</strong></h5><h5 id="2、iOS-客户端安装"><a href="#2、iOS-客户端安装" class="headerlink" title="2、iOS 客户端安装"></a><strong>2、iOS 客户端安装</strong></h5><p>目前 App Store 中国区已经移除了客户端，可以在电脑上安装 PP 助手工具，使用数据线连接手机，安装 Shadowrocket 到手机上；<br>不嫌麻烦也可以折腾一下 App Store 切区。</p>
+<h5 id="3、使用客户端连接自己搭建好的-Shadowsocks-服务器"><a href="#3、使用客户端连接自己搭建好的-Shadowsocks-服务器" class="headerlink" title="3、使用客户端连接自己搭建好的 Shadowsocks 服务器"></a><strong>3、使用客户端连接自己搭建好的 Shadowsocks 服务器</strong></h5><p>例如 Windows 客户端配置如下，其他客户端类似：<br><img src="/images/GCP_SSH/SS客户端.png" alt=""></p>
+<h5 id="4、科学上网"><a href="#4、科学上网" class="headerlink" title="4、科学上网"></a><strong>4、科学上网</strong></h5><p><img src="/images/GCP_SSH/科学上网.png" alt=""></p>
       
     </div>
     
@@ -395,11 +424,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+            <a href="/tags/Google-Cloud-Platform/" rel="tag"><i class="fa fa-tag"></i> Google Cloud Platform</a>
           
-            <a href="/tags/Github/" rel="tag"><i class="fa fa-tag"></i> Github</a>
+            <a href="/tags/Shadowsocks/" rel="tag"><i class="fa fa-tag"></i> Shadowsocks</a>
           
-            <a href="/tags/HelloWorld/" rel="tag"><i class="fa fa-tag"></i> HelloWorld</a>
+            <a href="/tags/科学上网/" rel="tag"><i class="fa fa-tag"></i> 科学上网</a>
           
         </div>
       
@@ -412,15 +441,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/07/29/hello-world/" rel="next" title="Hello Worlds">
+                <i class="fa fa-chevron-left"></i> Hello Worlds
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/07/29/GCP-SSH/" rel="prev" title="使用 Google Cloud Platform 搭梯，实现科学上网">
-                使用 Google Cloud Platform 搭梯，实现科学上网 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -603,7 +632,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#总体步骤"><span class="nav-number">1.</span> <span class="nav-text">总体步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#思维导图"><span class="nav-number">1.1.</span> <span class="nav-text">思维导图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#步骤详解"><span class="nav-number">1.2.</span> <span class="nav-text">步骤详解</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#第一步：注册-GCP"><span class="nav-number">1.2.1.</span> <span class="nav-text">第一步：注册 GCP</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第二步：搭建服务端"><span class="nav-number">1.2.2.</span> <span class="nav-text">第二步：搭建服务端</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1、VM-实例中搜索-Debian-8-（Jessie），新建一个实例，选择最低配即可。"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">1、VM 实例中搜索 Debian 8 （Jessie），新建一个实例，选择最低配即可。</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2、在外部-IP-地址中设置静态-IP"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">2、在外部 IP 地址中设置静态 IP</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3、在防火墙规则中分别创建一个入站和出站的规则"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">3、在防火墙规则中分别创建一个入站和出站的规则</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4、GCP自带网页终端登录服务器，或者使用SSH工具也可"><span class="nav-number">1.2.2.4.</span> <span class="nav-text">4、GCP自带网页终端登录服务器，或者使用SSH工具也可</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#4-1、切换到-root-用户"><span class="nav-number">1.2.2.4.1.</span> <span class="nav-text">4.1、切换到 root 用户</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#4-2、安装-BBR-内核（拥塞控制），按顺序执行以下三个命令"><span class="nav-number">1.2.2.4.2.</span> <span class="nav-text">4.2、安装 BBR 内核（拥塞控制），按顺序执行以下三个命令</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#4-3、安装-Shadowsocks-服务端，按顺序执行以下命令"><span class="nav-number">1.2.2.4.3.</span> <span class="nav-text">4.3、安装 Shadowsocks 服务端，按顺序执行以下命令</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第三步：使用-Shadowsocks-客户端访问搭建好的服务器"><span class="nav-number">1.2.3.</span> <span class="nav-text">第三步：使用 Shadowsocks 客户端访问搭建好的服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1、Windows、macOS、Android客户端可在我的百度网盘中下载（还是直接找我要吧，文件分享链接动不动就给封了，现要现给）"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">1、Windows、macOS、Android客户端可在我的百度网盘中下载（还是直接找我要吧，文件分享链接动不动就给封了，现要现给）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2、iOS-客户端安装"><span class="nav-number">1.2.3.2.</span> <span class="nav-text">2、iOS 客户端安装</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3、使用客户端连接自己搭建好的-Shadowsocks-服务器"><span class="nav-number">1.2.3.3.</span> <span class="nav-text">3、使用客户端连接自己搭建好的 Shadowsocks 服务器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4、科学上网"><span class="nav-number">1.2.3.4.</span> <span class="nav-text">4、科学上网</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>

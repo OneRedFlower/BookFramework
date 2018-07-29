@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://book.wenting.tech/2018/07/29/GCP-SSH/</loc>
+    
+    <lastmod>2018-07-29T16:47:43.787Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://book.wenting.tech/about/index.html</loc>
+    
+    <lastmod>2018-07-29T16:01:18.355Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://book.wenting.tech/2018/07/29/hello-world/</loc>
     
-    <lastmod>2018-07-29T14:48:00.311Z</lastmod>
+    <lastmod>2018-07-29T15:59:30.274Z</lastmod>
     
   </url>
   
@@ -12,13 +26,6 @@
     <loc>http://book.wenting.tech/404/index.html</loc>
     
     <lastmod>2018-07-29T14:33:05.643Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://book.wenting.tech/about/index.html</loc>
-    
-    <lastmod>2018-07-29T14:32:48.671Z</lastmod>
     
   </url>
   

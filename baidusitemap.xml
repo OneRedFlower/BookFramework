@@ -4,8 +4,33 @@
 
     
   <url>
+    <loc>http://book.wenting.tech/2018/07/29/GCP-SSH/</loc>
+    <lastmod>2018-07-29T16:47:43.787Z</lastmod>
+    <data>
+        <display>
+        <title>使用 Google Cloud Platform 搭梯，实现科学上网</title>
+        <pubTime>2018-07-29T15:34:45.000Z</pubTime>
+        
+        <tag>Google Cloud Platform</tag>
+         
+        <tag>Shadowsocks</tag>
+         
+        <tag>科学上网</tag>
+         
+         
+           
+             
+              <breadCrumb title="Google Cloud Platform" url="http://book.wenting.tech/categories/Google-Cloud-Platform/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://book.wenting.tech/2018/07/29/hello-world/</loc>
-    <lastmod>2018-07-29T14:48:00.311Z</lastmod>
+    <lastmod>2018-07-29T15:59:30.274Z</lastmod>
     <data>
         <display>
         <title>Hello Worlds</title>
@@ -26,7 +51,6 @@
     </data>
     </url>
 
-    
     
     
 </urlset>
