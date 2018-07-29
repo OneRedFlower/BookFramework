@@ -7,11 +7,10 @@
     </url>
 
     <url>
-        <loc>http://book.wenting.tech/2018/07/29/hello-world/</loc>
+        <loc>http://book.wenting.tech/categories/Hexo/</loc>
         <lastmod>2018-07-29T14:15:12.336Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>

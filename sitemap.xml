@@ -3,12 +3,22 @@
 
     <sitemap>
         <loc>http://book.wenting.tech/post-sitemap.xml</loc>
-        <lastmod>2018-07-24T16:25:24.382Z</lastmod>
+        <lastmod>2018-07-29T14:15:12.336Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://book.wenting.tech/page-sitemap.xml</loc>
         <lastmod>2018-07-25T08:34:06.825Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://book.wenting.tech/category-sitemap.xml</loc>
+        <lastmod>2018-07-29T14:15:12.336Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://book.wenting.tech/tag-sitemap.xml</loc>
+        <lastmod>2018-07-29T14:15:12.336Z</lastmod>
     </sitemap>
 
 </sitemapindex>

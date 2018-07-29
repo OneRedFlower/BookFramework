@@ -3,21 +3,30 @@
 
 
     
-    
-    
-    
   <url>
-    <loc>http://book.wenting.tech/2018/07/25/hello-world/</loc>
-    <lastmod>2018-07-24T16:25:24.382Z</lastmod>
+    <loc>http://book.wenting.tech/2018/07/29/hello-world/</loc>
+    <lastmod>2018-07-29T14:15:12.336Z</lastmod>
     <data>
         <display>
         <title>Hello Worlds</title>
-        <pubTime>2018-07-24T16:25:24.379Z</pubTime>
+        <pubTime>2018-07-29T14:00:00.000Z</pubTime>
         
+        <tag>Hexo</tag>
+         
+        <tag>Github</tag>
+         
+        <tag>HelloWorld</tag>
+         
          
            
+             
+              <breadCrumb title="Hexo" url="http://book.wenting.tech/categories/Hexo/"/>
+          
         </display>
     </data>
     </url>
 
+    
+    
+    
 </urlset>
