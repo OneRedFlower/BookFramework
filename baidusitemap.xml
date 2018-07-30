@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>http://book.wenting.tech/2018/07/29/GCP-SSH/</loc>
-    <lastmod>2018-07-30T02:10:57.562Z</lastmod>
+    <loc>http://book.wenting.tech/2018/07/15/GCP-SSH/</loc>
+    <lastmod>2018-07-30T07:34:26.032Z</lastmod>
     <data>
         <display>
         <title>使用 Google Cloud Platform 搭梯，实现科学上网</title>
-        <pubTime>2018-07-29T15:34:45.000Z</pubTime>
+        <pubTime>2018-07-15T15:34:45.000Z</pubTime>
         
         <tag>Google Cloud Platform</tag>
          
@@ -27,14 +27,13 @@
     </url>
 
     
-    
   <url>
-    <loc>http://book.wenting.tech/2018/07/29/hello-world/</loc>
-    <lastmod>2018-07-29T15:59:30.274Z</lastmod>
+    <loc>http://book.wenting.tech/2018/07/01/hello-world/</loc>
+    <lastmod>2018-07-30T07:34:05.209Z</lastmod>
     <data>
         <display>
         <title>Hello Worlds</title>
-        <pubTime>2018-07-29T14:00:00.000Z</pubTime>
+        <pubTime>2018-07-01T14:00:00.000Z</pubTime>
         
         <tag>Hexo</tag>
          
@@ -51,6 +50,7 @@
     </data>
     </url>
 
+    
     
     
 </urlset>
