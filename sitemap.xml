@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://book.wenting.tech/2018/07/30/resume/</loc>
+    
+    <lastmod>2018-07-31T17:54:56.693Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://book.wenting.tech/2018/07/15/GCP-SSH/</loc>
     
     <lastmod>2018-07-30T07:34:26.032Z</lastmod>
