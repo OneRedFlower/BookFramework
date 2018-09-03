@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://book.wenting.tech/"/>
-  <updated>2018-07-30T07:34:26.032Z</updated>
+  <updated>2018-09-03T12:23:52.370Z</updated>
   <id>http://book.wenting.tech/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ending</title>
+    <link href="http://book.wenting.tech/2018/09/03/ending/"/>
+    <id>http://book.wenting.tech/2018/09/03/ending/</id>
+    <published>2018-09-03T12:00:00.000Z</published>
+    <updated>2018-09-03T12:23:52.370Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>本博客永久关闭，直至域名回收，谢谢各位的支持!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;p&gt;本博客永久关闭，直至域名回收，谢谢各位的支持!&lt;/p&gt;
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://book.wenting.tech/categories/Hexo/"/>
+    
+    
+      <category term="Ending" scheme="http://book.wenting.tech/tags/Ending/"/>
+    
+  </entry>
   
   <entry>
     <title>使用 Google Cloud Platform 搭梯，实现科学上网</title>
