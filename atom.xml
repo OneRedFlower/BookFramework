@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://book.wenting.tech/"/>
-  <updated>2018-08-01T02:01:20.688Z</updated>
+  <updated>2018-07-30T07:34:26.032Z</updated>
   <id>http://book.wenting.tech/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>个人简历</title>
-    <link href="http://book.wenting.tech/2018/07/30/resume/"/>
-    <id>http://book.wenting.tech/2018/07/30/resume/</id>
-    <published>2018-07-30T08:13:30.000Z</published>
-    <updated>2018-08-01T02:01:20.688Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="个人信息"><a href="#个人信息" class="headerlink" title="个人信息"></a>个人信息</h3><p><strong>姓名：平锡峰&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别：男</strong></p><p><strong>学历：本科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：15906182900</strong></p><h3 id="求职意向"><a href="#求职意向" class="headerlink" title="求职意向"></a>求职意向</h3><p><strong>工作性质：全职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;期望从事职业：Java开发工程师</strong></p><p><strong>期望工作地：上海&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;期望薪资：13000-20000元/月</strong></p><p><strong>到岗情况：在职-获取OFFER后两周即可入职</strong></p><h3 id="工作技能"><a href="#工作技能" class="headerlink" title="工作技能"></a>工作技能</h3><p>1) 熟练掌握Java基础知识及面向对象编程思想，Java Web 技术，包括 JSP、Servlet等技术。<br>2) 了解使用 javaScript 编程，Ajax，jquery，XML，HTML/CSS 框架等前端开发技术。<br>3) 熟悉掌握MySQL以及Oracle等关系型数据库，熟悉使用Redis、Mongo DB等非关系型数据库。<br>4) 熟悉掌握 Tomcat , Nginx 代理服务器，熟悉 Tomcat 配置调优。<br>5) 熟悉使用常见的 Linux 命令。熟悉 Linux 系统下部署项目，具备在 Linux 环境下开发的技能。<br>6) 熟悉使用 eclipse，IDEA 等开发工具。<br>7) 熟悉掌握 SVN，Git，Maven 等项目版本管理及构建工具并会使用 GitHub 进行代码托管。<br>8) 熟悉使用 SpringBoot+SSM框架项目后台开发，熟悉使用SSH框架项目的开发。</p><h3 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h3><h4 id="无锡一碑网络科技有限公司"><a href="#无锡一碑网络科技有限公司" class="headerlink" title="无锡一碑网络科技有限公司"></a>无锡一碑网络科技有限公司</h4><p><strong>2017/03-至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JAVA开发工程师|10000元/月</strong></p><h5 id="工作描述-收费研发组"><a href="#工作描述-收费研发组" class="headerlink" title="工作描述-收费研发组"></a>工作描述-收费研发组</h5><p>1.参与仓库管理系统开发与预生产问题解决，直至上线结束<br>2.参与公司核心项目收费系统的开发，包括但不限于系统升级二次需求开发、系统维护、对外接口开发、与第三方财务系统（金蝶、用友）业务和接口对接与开发、与客户对接系统生产问题并提供解决方案、对接公司社区移动端支付接口（微信、支付宝、银联等）、移动端微信与支付宝回调接口开发等<br>3.收费系统组日常管理与工作安排，带领组员完成开发经理安排的任务及时汇报进度，培养组内新入职的人员与实习生等</p><h5 id="个人职责"><a href="#个人职责" class="headerlink" title="个人职责"></a>个人职责</h5><p>1.刚进入公司，为仓库管理系统的出库入库模块进行优化，为其数据校对提供了一套新菜单，并支持与维护科兴科技园客户使用该套系统直到上线<br>2.参与收费系统项目组的各项工作，包括与客户对接确认开发需求、需求设计、开发设计、开发与测试并发布至生产环境，提供各客户收费系统日常的维护和公司实施人员的技术支持<br>3.为公司其他模块提供收费系统的接口，包括微信公众号提供收费系统的接口，并参与微信公众号收费显示模块的二次开发，内控系统抄表信息接口的对接等工作。期间完成了微信缴费、支付宝缴费和银联缴费与收费系统的对接工作与各回调接口的开发工作<br>4.18年年后担任收费系统项目组组长，支持收费组实施人员为新客户上线收费系统，带领收费组初级开发人员维护收费系统日常运营和开发并优化新需求与功能，满足客户使用要求<br>5.满足某些客户需要与第三方系统数据对接的要求，评估工作量并与第三方商讨方案并实施</p><h4 id="易保科技（无锡）有限公司"><a href="#易保科技（无锡）有限公司" class="headerlink" title="易保科技（无锡）有限公司"></a>易保科技（无锡）有限公司</h4><p><strong>2015/07-2017/02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JAVA开发工程师|4500元/月</strong></p><h5 id="工作描述-车险理赔项目开发部门"><a href="#工作描述-车险理赔项目开发部门" class="headerlink" title="工作描述-车险理赔项目开发部门"></a>工作描述-车险理赔项目开发部门</h5><p>15年7月-16年3月：大三结束后获得该公司实习offer，在该公司进行了为期半年的保险业务培训与系统操作培训，期间自学java开发技术，最后通过考试进入项目组毕业后即转正<br>16年4月-17年02月：在车险理赔核心项目组担任初级开发工程师，期间开发与维护过的项目有：中华联合（CIC）、KOA保险公司、利宝保险</p><h5 id="个人职责-1"><a href="#个人职责-1" class="headerlink" title="个人职责"></a>个人职责</h5><p>1.参与中华联合CIC系统、LM利宝保险系统、KOA日本保险公司三个系统的运维工作，处理客户生产环境问题与解决系统中的bug<br>2.参与上述三个系统的二次开发，包括前期的开发设计、开发、测试与上线后的维护等工作<br>3.与同事一起对新老系统进行数据迁移，使用工具为Kettle，负责数据迁移工作中的数据抽取与校对工作并支持新系统的上线</p><h3 id="教育经历"><a href="#教育经历" class="headerlink" title="教育经历"></a>教育经历</h3><p><strong>2012/02 - 2016/07&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;无锡太湖学院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通信工程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本科</strong></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;个人信息&quot;&gt;&lt;a href=&quot;#个人信息&quot; class=&quot;headerlink&quot; title=&quot;个人信息&quot;&gt;&lt;/a&gt;个人信息&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;姓名：平锡峰&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-      
-    
-    </summary>
-    
-      <category term="生活" scheme="http://book.wenting.tech/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="简历" scheme="http://book.wenting.tech/tags/%E7%AE%80%E5%8E%86/"/>
-    
-      <category term="求职" scheme="http://book.wenting.tech/tags/%E6%B1%82%E8%81%8C/"/>
-    
-  </entry>
   
   <entry>
     <title>使用 Google Cloud Platform 搭梯，实现科学上网</title>
